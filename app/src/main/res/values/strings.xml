@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ARCoreImageTracking</string>
+    <string name="detected_img_need_more_info">Detected image but need more info</string>
+    <string name="track_stop">Tracking Stopped</string>
+    <string name="fit_image_to_scan">Fit the image you\'re scanning</string>
+    <string name="ar_fragment">AR Fragment</string>
+</resources>

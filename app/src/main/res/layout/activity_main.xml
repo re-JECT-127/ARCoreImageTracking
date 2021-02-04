@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <fragment
+        android:id="@+id/fragArImg"
+        android:name="com.example.arcoreimagetracking.TrackImgFrag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <!-- note: own implementation that override ArFragment -->
+
+    <ImageView
+        android:id="@+id/fitToScanImg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:contentDescription="@string/fit_image_to_scan"
+        android:scaleType="fitCenter"
+        android:src="@drawable/fit_to_scan" />
+
+</FrameLayout>
